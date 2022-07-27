@@ -20,7 +20,7 @@
 ![image](https://user-images.githubusercontent.com/98133984/181182281-4d01a374-62fe-4957-9a07-1efc005e35d3.png)
    - 답
    ```
-
+   git config --global을 이용해 닉네임과 이메일을 등록해주어야 한다.
    ```
 5. clone과 pull의 차이는 무엇인가요?
    - 답 : 
