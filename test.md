@@ -33,7 +33,7 @@
    ![image](https://user-images.githubusercontent.com/98133984/181183354-df42d325-b839-48e1-a4c6-667c20b33d5c.png)
     - 답 : git pull master origin
 
-9.  소유권이 없는 협업을 하기 위해서 가장 먼저 해야 할 것은 무엇일까요?
+9.  소유권이 없는 협업을 하기 위해서 가장 먼저 해야 할 것은 무엇일까요? fork
 10. 소유권이 없는 협업의 경우, `git push origin master`로 원격 저장소에 변경사항을 반영할 수 있다.
     - 답 : O/X
     - 이유 :
