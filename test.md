@@ -23,7 +23,7 @@
    git config --global을 이용해 닉네임과 이메일을 등록해주어야 한다.
    ```
 5. clone과 pull의 차이는 무엇인가요?
-   - 답 : 
+   - 답 : clone = 복제, pull = 업데이트
    
 6. branch를 만드는 목적은 무엇인가요?
     - 답 : 
