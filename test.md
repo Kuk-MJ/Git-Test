@@ -48,4 +48,4 @@
     ```
 
 13. merge와 rebase의 차이점은 무엇일까요? 
-     - 답 
+     - 답 : rebase는 Commit을 병합하여 불필요한 commit제거
