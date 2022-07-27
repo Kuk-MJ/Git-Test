@@ -21,7 +21,7 @@
    git config --global user.email "메일 주소" 형태로 email을 입력한다.
    ```
 5. clone과 pull의 차이는 무엇인가요?
-   - 답 :
+   - 답 : clone은 복제, pull은 업데이트
    
 6. branch를 만드는 목적은 무엇인가요?
     - 답 : 
