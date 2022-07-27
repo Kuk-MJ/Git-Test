@@ -3,10 +3,10 @@
 > 함께 PR을 날리면서 집단지성을 통해 문제를 풀어 봅시다.
 
 1. git은 무엇인가요?   
-   - 답 : 
+   - 답 : 분산 버전 관리 프로그램
   
 2. Staging Area의 역할은 무엇일까요?
-   - 답 :  
+   - 답 :  Working Directory에서 작업이 끝난 파일이 있는 공간
 
 3. 변경사항을 기록하는 과정을 아래 코드 블록에 작성해 주세요.
    - 답
@@ -18,33 +18,34 @@
 ![image](https://user-images.githubusercontent.com/98133984/181182281-4d01a374-62fe-4957-9a07-1efc005e35d3.png)
    - 답
    ```
-
+   git config --global user.email "메일 주소" 형태로 email을 입력한다.
    ```
 5. clone과 pull의 차이는 무엇인가요?
-   - 답 :
+   - 답 : clone은 복제, pull은 업데이트
    
 6. branch를 만드는 목적은 무엇인가요?
-    - 답 : 
+    - 답 : master를 만지지 않고 기능을 추가하기 위해서
 
 7. branch를 생성하는 동시에 이동하는 명령어는 무엇인가요?
-    - 답 : 
+    - 답 : git switch -c (브랜치 이름)
 
 8. 다음과 같은 상황이 나타났을 때 어떻게 해야 하나요?
    ![image](https://user-images.githubusercontent.com/98133984/181183354-df42d325-b839-48e1-a4c6-667c20b33d5c.png)
-    - 답 : 
+    - 답 : git pull master origin
 
-9.  소유권이 없는 협업을 하기 위해서 가장 먼저 해야 할 것은 무엇일까요?
+9.  소유권이 없는 협업을 하기 위해서 가장 먼저 해야 할 것은 무엇일까요? fork
 10. 소유권이 없는 협업의 경우, `git push origin master`로 원격 저장소에 변경사항을 반영할 수 있다.
-    - 답 : O/X
-    - 이유 :
+    - 답 : X
+    - 이유 : 마스터로 말고 branch로 보내야 된다
  
 11. git reset 명령어의 옵션 중, staging area 상태로 돌아가는 옵션은 ______이다.
-    - 답 : 
+    - 답 : soft
 
 12. 바로 직전 커밋을 수정하기 위해서 필요한 명령어를 작성하세요.
     - 답
     ```
+    git commit --amend
     ```
 
 13. merge와 rebase의 차이점은 무엇일까요? 
-     - 답 : 
+     - 답 : rebase는 Commit을 병합하여 불필요한 commit제거
