@@ -18,7 +18,7 @@
 ![image](https://user-images.githubusercontent.com/98133984/181182281-4d01a374-62fe-4957-9a07-1efc005e35d3.png)
    - 답
    ```
-
+   git config --global user.email "메일 주소" 형태로 email을 입력한다.
    ```
 5. clone과 pull의 차이는 무엇인가요?
    - 답 :
